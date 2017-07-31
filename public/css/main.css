@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #C6B89E;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212121;
+}
+
+#todo-list-wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #EDD892;
+  padding: 0.5rem;
+}
+
+input, button {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: inherit;
+  outline: none;
+}
+
+input {
+  width: 290px;
+  background-color: #3C4238;
+  color: white;
+}
+
+button {
+  width: 100px;
+  background-color: #AABA9E;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #FFFFFF;
+}
+
+ul li:hover {
+  background-color: #FCB97D;
+  cursor: pointer;
+  text-decoration: line-through;
+}
