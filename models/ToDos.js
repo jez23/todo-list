@@ -13,6 +13,11 @@ ToDos.prototype = {
       id: randomID(),
       task: task
     })
+  },
+    removeItem: function (id) {
+    this._items = this._items.filter(function (item) {
+      return item.id !== id
+    })
   }
 }
 

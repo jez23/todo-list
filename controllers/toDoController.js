@@ -20,6 +20,16 @@ app.post('/', urlencodedParser, function (req, res) {
   })
 })
 
+app.delete('/', urlencodedParser, function (req, res) {
+  console.log("Hello")
+  console.log(req.body.id)
+    toDos.removeItem(req.body.id)
+console.log(toDos.getItems())
+    res.render('home', {
+      toDos: toDos.getItems()
+    })
+  })
+
 
 }
 
