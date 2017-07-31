@@ -1,12 +1,11 @@
 <div id="todo-list-wrapper">
-    <form method="post">
-  <input type="text" name="item" placeholder="Enter new todo item...">
-  <button type="submit">Add</button>
-</form>
+  <form method="post">
+    <input type="text" name="item" placeholder="Enter new todo item..."><button type="submit">Add</button>
+  </form>
 
-<ul>
-  <li>Todo Item 1</li>
-  <li>Todo Item 2</li>
-  <li>Todo Item 3</li>
-</ul>
+   <ul>
+    {{#each toDos}}
+      <li>{{task}}</li>
+    {{/each}}
+  </ul>
 </div>

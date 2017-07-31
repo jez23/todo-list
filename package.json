@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jez23/todo-list#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "random-id": "0.0.2"
   }
 }
