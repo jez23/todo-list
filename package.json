@@ -18,8 +18,10 @@
   "homepage": "https://github.com/jez23/todo-list#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.5",
     "random-id": "0.0.2"
   }
 }

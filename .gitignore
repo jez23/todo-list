@@ -1,3 +1,2 @@
 node_modules/
-random-id/
-body-parser/
+settings.env
