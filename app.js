@@ -1,5 +1,13 @@
+var path = require('path')
+
+require('dotenv').config({
+  path: path.join(__dirname, 'settings.env')
+})
+
+
 require('dotenv').config()
 var mongoose = require('mongoose')
+
 mongoose.connect(process.env.DATABASE_URL, {
   useMongoClient: true
 })
